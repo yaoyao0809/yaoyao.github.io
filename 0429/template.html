@@ -83,17 +83,20 @@
                             <li><a class="dropdown-item" href="file:///C:/yaoyao.github.io/0408/index.html">04/08
                                     Bootstrap</a></li>
                             <li>
-                                <li><a class="dropdown-item" href="file:///C:/yaoyao.github.io/0415/template.html">04/15 copyright</a></li>
-                    <li><a class="dropdown-item" href="file:///C:/yaoyao.github.io/0422/template.html">04/22 各種練習</a></li>
-                    <li><a class="dropdown-item" href="file:///C:/yaoyao.github.io/0429/template.html">04/29 Bootstrap</a></li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="file:///C:/yaoyao.github.io/index.html">回到首頁</a></li>
-                        </ul>
+                            <li><a class="dropdown-item" href="file:///C:/yaoyao.github.io/0415/template.html">04/15
+                                    copyright</a></li>
+                            <li><a class="dropdown-item" href="file:///C:/yaoyao.github.io/0422/template.html">04/22
+                                    各種練習</a></li>
+                            <li><a class="dropdown-item" href="file:///C:/yaoyao.github.io/0429/template.html">04/29
+                                    Bootstrap</a></li>
+                            <hr class="dropdown-divider">
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                    </li>
+                    <li><a class="dropdown-item" href="file:///C:/yaoyao.github.io/index.html">回到首頁</a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -102,9 +105,11 @@
             </div>
         </div>
     </nav>
+
     <h1 class="text-center">2025/04/29 Bootstrap 元件</h1>
     <hr>
 
+</br>
     <!--表格-->
     <div class="container">
         <h2 class="text-center">表格</h2>
@@ -147,14 +152,117 @@
         </table>
     </div>
 
+</br>
     <!--圖表-->
-    <div class="container">
+    <div class="container text-center">
         <h2 class="text-center">圖表</h2>
         <hr>
         <figure class="figure">
             <img src="img/hachan.png" class="figure-img img-fluid rounded" alt="..." width="60%" height="60%">
             <figcaption class="figure-caption">圖片來源：吉伊卡哇</figcaption>
         </figure>
+    </div>
+
+</br>
+    <!--手風琴-->
+    <div class="container text-center">
+        <h2 class="text-center">手風琴</h2>
+        <hr>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Accordion Item #1
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                        does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Accordion Item #2
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                        does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Accordion Item #3
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                        does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                        Accordion Item #4
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                        does limit overflow.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</br>
+    <!--收合-->
+    <div class="container text-center">
+        <h2 class="text-center">收合</h2>
+        <hr>
+        <p class="d-inline-flex gap-1">
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+              點我看更多
+            </a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              問就是點
+            </button>
+          </p>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+            </div>
+          </div>
+
     </div>
 
     </br>
